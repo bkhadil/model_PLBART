@@ -8,7 +8,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 
 public class CodeBERTClient {
-    private static final String API_URL = "https://api-inference.huggingface.co/models/microsoft/codebert-base";
+    private static final String API_URL = "https://api-inference.huggingface.co/models/Salesforce/codet5-base";
     private static final String TOKEN = "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";
 
     public String generateDocumentation(String code) throws Exception {

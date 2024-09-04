@@ -64,7 +64,11 @@
 	  
 	  
 	  
-	  
+	    <dependency>
+        <groupId>com.github.javaparser</groupId>
+        <artifactId>javaparser-core</artifactId>
+        <version>3.25.4</version> <!-- Use the latest version if needed -->
+    </dependency>
 	  
 	  
 	  
@@ -75,10 +79,6 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-    	<groupId>com.example</groupId>
-    	<artifactId>AI-DocGen</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
-    </dependency>
+    
   </dependencies>
 </project>
